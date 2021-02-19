@@ -7,9 +7,19 @@ function footer() {
         <div className="footer-middle">
           <div className="container">
             <div className="row">
-              <div className="col-md-3 col-sm-6">
+              <div className="col-md-3 col-sm-6 p-0">
                 {/* <!--Column1--> */}
-                <div className="footerLogo"></div>
+                <div className="footerLogo">
+                <div className="opacity text-justify">
+                  EWD Tech is a privately-owned Company based in Faisalabad, the
+                  industrial Hub of Pakistan. We provide IT Consultancy,
+                  Corporate-level Tech Support, Software Designs and
+                  Development, Web Application Solutions. E-commerce Store to
+                  complete business set-up along with visual identity and
+                  representation of Brands and complete Product services and
+                  maintenance solutions.
+                </div>
+                </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 {/* <!--Column1--> */}
