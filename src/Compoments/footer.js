@@ -1,57 +1,49 @@
 import React from "react";
 import "./assets/css/footer.css";
+import Ewd from './assets/img/ewdtech.png'
+
 function footer() {
   return (
     <React.Fragment>
-      <footer className="mainfooter" role="contentinfo">
+      <footer className="mainfooter main_padding" role="contentinfo">
         <div className="footer-middle">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-3 col-sm-6 p-0">
+          <div className="container-1">
+            <div className="row justify-content-between w-100">
+              <div className="col-md-4 p-0">
                 {/* <!--Column1--> */}
                 <div className="footerLogo">
+                <img src={Ewd}/>
+                </div>
                 <div className="opacity text-justify">
-                  EWD Tech is a privately-owned Company based in Faisalabad, the
-                  industrial Hub of Pakistan. We provide IT Consultancy,
-                  Corporate-level Tech Support, Software Designs and
-                  Development, Web Application Solutions. E-commerce Store to
-                  complete business set-up along with visual identity and
-                  representation of Brands and complete Product services and
-                  maintenance solutions.
+                EWD Tech is a privately-owned Company based in Faisalabad, the industrial Hub of Pakistan. We provide IT Consultancy, Corporate-level Tech Support, Software Designs and Development, Web Application Solutions.
                 </div>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6">
+                <div className="">
                 {/* <!--Column1--> */}
                 <div className="footer-pad text-justify">
-                  EWD Tech is a privately-owned Company based in Faisalabad, the
-                  industrial Hub of Pakistan. We provide IT Consultancy,
-                  Corporate-level Tech Support, Software Designs and
-                  Development, Web Application Solutions. E-commerce Store to
-                  complete business set-up along with visual identity and
-                  representation of Brands and complete Product services and
-                  maintenance solutions.
+                E-commerce Store to complete business set-up along with visual identity and representation of Brands and complete Product services and maintenance solutions.
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6">
+              </div>
+         
+              <div className="">
                 {/* <!--Column1--> */}
                 <div className="footer-pad">
-                  <h4>Heading 3</h4>
+                  <h4>QUICK LINKS</h4>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">Parks and Recreation</a>
+                      <a href="#">WEB DEVLOPMENT</a>
                     </li>
                     <li>
-                      <a href="#">Public Works</a>
+                      <a href="#">SERVICES</a>
                     </li>
                     <li>
-                      <a href="#">Police Department</a>
+                      <a href="#">PORTFOLIO</a>
                     </li>
                     <li>
-                      <a href="#">Fire</a>
+                      <a href="#">ABOUT Us</a>
                     </li>
                     <li>
-                      <a href="#">Mayor and City Council</a>
+                      <a href="#">HOME</a>
                     </li>
                     <li>
                       <a href="#"></a>
@@ -59,20 +51,34 @@ function footer() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="">
                 <h4>Follow Us</h4>
                 <ul className="social-network social-circle">
-                  <li>
+                    <div>  <span> <li>
                     <a href="#" className="icoFacebook" title="Facebook">
-                      <i className="fa fa-facebook"></i>
+                    <i class="fa fa-envelope "></i>
                     </a>
-                  </li>
-                  <li>
+                  </li></span>
+                  <span> support@ewdtech.com</span></div>
+              <div>  <span>  <li>
                     <a href="#" className="icoLinkedin" title="Linkedin">
-                      <i className="fa fa-linkedin"></i>
+                    <i class="fa fa-phone "></i>
                     </a>
-                  </li>
+                  </li></span><span>+92 333 2793279</span></div>
+                <div> <span>  <li>
+                    <a href="#" className="icoLinkedin" title="Linkedin">
+                    <i class="fa fa-skype "></i>
+                    </a>
+                         
+                  </li> </span>   <span> maqsood890</span></div>
+                  <div>        <span>    <li>
+                    <a href="#" className="icoLinkedin" title="Linkedin">
+                    <i class="fa fa-map-marker"></i>
+                    </a>
+                  </li></span>
+                  <span> 5th floor, mezan executive tower, Faisalabad</span></div>
                 </ul>
+                
               </div>
             </div>
             <div className="row">

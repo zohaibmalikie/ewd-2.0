@@ -4,12 +4,12 @@ footer {
     background: #2193b0;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: white;
+/* color: white; */
     margin-top:100px;
   }
   
   footer a {
-    color: #fff;
+    /* color: #fff; */
     font-size: 14px;
     transition-duration: 0.2s;
   }
@@ -27,7 +27,7 @@ color: white;
   
   .footer-middle {
     padding-top: 2em;
-    color: white;
+    /* color: white; */
   }
   
   
@@ -111,17 +111,4 @@ color: white;
   
   .social-network a {
     background-color: #F9F9F9;
-  }
-  .footerLogo{
-      background-image: url('../img/logo-white.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 0.3;
-      width: 100%;
-      height: 100%;
-      
-    }
-    .opacity{
-      /* background-image: linear-gradient(to right, #000 -94%, #000 9%); */
-      color:white;
   }
