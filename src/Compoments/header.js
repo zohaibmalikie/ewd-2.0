@@ -31,30 +31,18 @@ function header() {
   </div>
 </nav>
 </section>
-{/* <section id="particles-js">
-    <div className="row">
-        <div className="col-lg-5 col-md-5"></div>
-        <div className="col-lg-7 col-md-7">        <div className=" imag-column ">
 
-
-<img src={Computer} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100"className="cumputer-image aos-init aos-animate"className="img-fluid"/>
-<img src={Icons} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100" />
-<img src={Chair} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100" />
-<img src={Table} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100" /> 
-
-</div></div>
-
-
-
-    </div>
- 
-        </section> */}
         <div class="card img-fluid text-center border-0"> <img class="card-img-top w-100 bg-linear-gradient" src={Artboard_4} alt="Card image"/>
         <div class="card-img-overlay cl-fff d-flex justify-content-center flex-column align-items-center father-day-banner-styling">
-          <h4 class="card-title  font-weight-bold cl-white">
-            Happy Fathers Day</h4>
-          <p class="card-text cl-white mw-35">Make your Father's day more special with awesome T Shirt gift Idea.
-            Get Ideas with EWD Father's day Apparel.</p>
+        <div className=" imag-column ">
+
+
+<img src={Computer} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100"className="cumputer-image aos-init aos-animate"className="img-fluid computer"/>
+<img src={Icons} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100" className="icons" />
+<img src={Chair} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100"className="w150 " />
+<img src={Table} data-aos="fade-left" data-aos-delay="500" data-aos-duration="100"className=" table" /> 
+
+</div>
         </div>
       </div>
    
