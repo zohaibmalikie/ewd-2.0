@@ -1,0 +1,63 @@
+.pnav a {
+  background-image: url('./images/screencapture-onecaree-ilogistics-2021-02-03-16_34_35.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: block;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  /* width: 500px; */
+  height: 307.5px;
+
+  -webkit-transition: background-position 2s ease-in-out;
+  -moz-transition: background-position 2s ease-in-out;
+  -ms-transition: background-position 2s ease-in-out;
+  -o-transition: background-position 2s ease-in-out;
+  transition: background-position 2s ease-in-out;
+}
+
+.pnav a:hover {
+  background-position: 0px -538px;
+}
+/* 2 */
+@keyframes bg {
+	0% {
+		background-size: 0 3px, 3px 0, 0 3px, 3px 0;
+	}
+	25% {
+		background-size: 100% 3px, 3px 0, 0 3px, 3px 0;
+	}
+	50% {
+		background-size: 100% 3px, 3px 100%, 0 3px, 3px 0;
+	}
+	75% {
+		background-size: 100% 3px, 3px 100%, 100% 3px, 3px 0;
+	}
+	100% {
+		background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+	}
+}
+
+.div_1 {
+	width: 25%;
+	margin: 2rem auto;
+	padding: 2em;
+
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to right, #c9c9c9 100%, #c9c9c9 100%),
+		linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%),
+		linear-gradient(to right, #c9c9c9 100%, #c9c9c9 100%),
+		linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%);
+	background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+	background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+	animation: bg 1.5s cubic-bezier(0.19, 1, 0.22, 1) 1;
+	animation-play-state: paused;
+  box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
+  
+}
+
+.div_1:hover {
+	animation-play-state: running;
+
+}

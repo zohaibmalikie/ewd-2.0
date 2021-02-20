@@ -49,11 +49,7 @@ function footer() {
       </div>
 
         </section>
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
+        
       </footer>
       <footer class="text-center pos-r bg-dark main_padding">
   <div class="container pt-3 pb-3"> 
