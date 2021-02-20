@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+
+}
+.cl-999{
+    color: #999;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    margin: 0;
 }
