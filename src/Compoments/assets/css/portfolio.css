@@ -1,5 +1,7 @@
 .pnav a {
-  background-image: url('./images/screencapture-onecaree-ilogistics-2021-02-03-16_34_35.png');
+    /* background: #B1B8BD url('./images/screencapture-onecaree-ilogistics-2021-02-03-16_34_35.png') 0 0 no-repeat; */
+  background-image: url('../img/web_1.jpg');
+  /* background: linear-gradient(to right, #000 -94%, #000 9%); */
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -61,3 +63,35 @@
 	animation-play-state: running;
 
 }
+@media (min-width: 768px){
+.modal-dialog {
+    max-width: 100% !important;
+    margin: 30px auto;
+}
+}
+.bottom_card_text{
+  background: #fff;
+  font-weight: 600;
+    padding: 10px 0;
+    display: inline-block;
+    text-align: center;
+}
+.boxShadow_portfolio{
+  box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
+}
+.w-100{
+  width: 100%  !important;
+  
+  padding-left: 100px;
+    padding-right: 100px;
+
+}
+.close {
+position: absolute;
+right:30px;
+    font-size: 46px !important;
+    outline: none !important;
+}
+/* .w-34{
+  width: 100% !important;
+} */
