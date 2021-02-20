@@ -4,3 +4,95 @@
 .f-30{
   font-size: 30px;
 }
+.w-48{
+  width: 49.1%;
+}
+.bg-light{
+  background-color: #f8f9fa !important;
+  border-radius: 5px;
+}
+.bg-e8f0fe{
+ background-color:  #e8f0fe !important;
+ border-radius: 0px;
+}
+.footer_textarea{
+width: 100%;
+padding: 10px;
+border: 0;
+background-color: #e8f0fe;
+}
+.f-14{
+  font-size: 14px;
+}
+.cl-999{
+  color: #999;
+}
+
+
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.butn-bg {
+    background: #1A237E;
+    border-color: #1A237E;
+    color: #fff;
+}
+input{
+  outline: none !important;
+}
+textarea{
+  outline: none !important;
+}
+.butn {
+    padding: 12px 35px;
+    background-color: #2576FD;
+    
+    border-radius: 30px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 3;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none !important;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+.butn:hover{
+  color: #222;
+  background-color: #fff;
+  transition: all .4s;
+}
+
+/* }
+.curve.curve-center.curve-top:before {
+  border-right: 50vw solid transparent;
+}
+.curve.curve-top:after, .curve.curve-top:before {
+  top: 0;
+  border-top: 50px solid #fff;
+  border-bottom: 0;
+}
+.curve:before {
+  left: 0;
+  border-right: 70vw solid transparent;
+}
+.curve:after, .curve:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #fff;
+  position: absolute;
+} */
