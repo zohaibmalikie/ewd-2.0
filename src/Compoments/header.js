@@ -2,11 +2,7 @@ import React from "react";
 import "./assets/css/header.css";
 import "./assets/css/utility.css";
 import Navlogo from "./assets/img/logo-8.png";
-import Computer from "./assets/img/computer-8.png";
-import Icons from "./assets/img/icons.png";
-import Chair from "./assets/img/chair.png";
-import Table from "./assets/img/table.png";
-import main from "./assets/img/main.png";
+import Main from "./assets/img/main_video.mp4";
 
 function header() {
   return (
@@ -53,13 +49,11 @@ function header() {
             </div>
           </div>
         </nav>
-        <img
-          className="card-img-top w-100 bg-linear-gradient pt-5"
-          src={main}
-          alt="Card"
-          id="bg-img"
-        />
+        <div className="embed-responsive embed-responsive-16by9">
+                <video autoPlay muted loop src={Main} className="embed-responsive-item"></video>
+            </div>
       </section>
+      
     </React.Fragment>
   );
 }
