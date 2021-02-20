@@ -8,8 +8,8 @@ function mainPage() {
         <div>
         <Header/>
        <Card/>
-       <Footer/>
        <Portfolio/> 
+       <Footer/>
         </div>
     )
 }
