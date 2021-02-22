@@ -1,27 +1,45 @@
 .pnav a {
     /* background: #B1B8BD url('./images/screencapture-onecaree-ilogistics-2021-02-03-16_34_35.png') 0 0 no-repeat; */
-  background-image: url('../img/web_1.jpg');
-  /* background: linear-gradient(to right, #000 -94%, #000 9%); */
+	/* background: linear-gradient(to right, #000 -94%, #000 9%); */
   background-repeat: no-repeat;
   background-size: cover;
-
   display: block;
   text-align: center;
   color: #fff;
   padding-top: 20px;
   /* width: 500px; */
   height: 307.5px;
-
   -webkit-transition: background-position 2s ease-in-out;
   -moz-transition: background-position 2s ease-in-out;
   -ms-transition: background-position 2s ease-in-out;
   -o-transition: background-position 2s ease-in-out;
   transition: background-position 2s ease-in-out;
 }
-
-.pnav a:hover {
-  background-position: 0px -538px;
+.img_one{
+	background-image: url('../img/web_1.jpg');
 }
+.img_one:hover{
+	background-position: 0px -358px;
+	
+}
+.img_two{
+	
+	background-image: url('../img/tpmockup.jpg');
+}
+.img_two:hover{
+	background-position: 0px -130px;
+	
+}
+.img_three{
+	
+	background-image: url('../img/three.png');
+}
+.img_three:hover{
+	background-position: 0px -300px;
+}
+
+
+
 /* 2 */
 @keyframes bg {
 	0% {
@@ -63,34 +81,34 @@
 	animation-play-state: running;
 
 }
-@media (min-width: 768px){
-.modal-dialog {
-    max-width: 100% !important;
-    margin: 30px auto;
-}
-}
 .bottom_card_text{
-  background: #fff;
+	background: #fff;
   font-weight: 600;
-    padding: 10px 0;
-    display: inline-block;
-    text-align: center;
+  padding: 10px 0;
+  display: inline-block;
+  text-align: center;
 }
 .boxShadow_portfolio{
-  box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
 }
 .w-100{
-  width: 100%  !important;
-  
-
-
+	width: 100%  !important;
 }
 .close {
-position: absolute;
-right:30px;
+	position: absolute;
+	right:30px;
     font-size: 46px !important;
     outline: none !important;
 }
 /* .w-34{
-  width: 100% !important;
+	width: 100% !important;
 } */
+@media (min-width: 768px){
+.modal-dialog {
+	max-width: 100% !important;
+	margin: 30px auto;
+}
+.modal-header{
+	padding: 50px 80px !important;
+}
+}
