@@ -5,7 +5,7 @@ import Ewd from './assets/img/ewdtech.png'
 function footer() {
   return (
     <React.Fragment>
-      <footer className="mainfooter main_padding " role="contentinfo">
+      <footer className="mainfooter main_padding mt-5" role="contentinfo">
         {/* <div className="text-center"><span className="font-weight-bold f-30">Get </span><span className=" f-30"> In </span> <span  className="font-weight-bold f-30">Touch</span></div>
         <p className="cl-999  text-center pl-5 pr-5">We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p> */}
         <section className="">
